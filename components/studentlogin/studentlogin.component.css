@@ -1,0 +1,15 @@
+.main-div mat-card
+{
+    padding: 30px;
+    width:100%;
+    float: left;
+    background-color: rgb(170, 170, 246);
+}
+.login-form{
+
+padding-left: 00px;
+width: 100%;
+}
+.btn{
+    background-color: rgba(158, 51, 235, 0.847);
+}

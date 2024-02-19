@@ -1,0 +1,37 @@
+<div class="basic">
+  <h1>BASIC DETAILS</h1>
+  <form class="row g-3" #basicDetailsForm="ngForm">
+    
+    <div class="col-md-6">
+      <label for="inputAadhar" class="form-label">AADHAR NUMBER</label>
+      <input type="number" name="aadharno" class="form-control" id="aadhar" [(ngModel)]="adhar">
+    </div>
+    <div class="col-md-4">
+      <label for="inputReligion" class="form-label">RELIGION</label>
+      <select id="inputReligion" name="religion" class="form-select" id="religion" [(ngModel)]="relig">
+        <option selected>select your religion</option>
+        <option>Hindu</option>
+        <option>Muslim</option>
+        <option>Christian</option>
+        <option>Sikh</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="col-6">
+      <label for="inputCommunity" class="form-label">COMMUNITY/CATEGORY</label>
+      <input type="text" name="community" class="form-control" id="community" placeholder="" [(ngModel)]="commu">
+    </div>
+    <div class="col-6">
+      <label for="inputFatherName" class="form-label">FATHER NAME</label>
+      <input type="text" name="fatherName" class="form-control" id="fathername" [(ngModel)]="fName">
+    </div>
+    <div class="col-md-6">
+      <label for="inputMotherName" class="form-label">MOTHER NAME</label>
+      <input type="text" name="motherName" class="form-control" id="mothername" [(ngModel)]="mName">
+    </div>
+    <div class="col-md-6">
+      <label for="inputfamilyannualincome" class="form-label">FAMILY ANNUAL INCOME</label>
+      <input type="number" name="annualIncome" id="annualincome" class="form-control" [(ngModel)]="income">
+    </div>
+  </form>
+</div>

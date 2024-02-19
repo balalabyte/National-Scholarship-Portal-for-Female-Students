@@ -1,0 +1,19 @@
+<div class="fee">
+  <h1>FEE DETAILS</h1>
+  <form class="row g-3" #feeDetailsForm="ngForm">
+    <div class="col-md-4">
+      <label for="inputAdmissionFee" class="form-label">ADMISSION FEE</label>
+      <input type="number" name="admissionfee" class="form-control" id="admissionfee" [(ngModel)]="addFee">
+    </div>
+    <div class="col-md-4">
+      <label for="inputTuitionFee" class="form-label">TUITION FEE</label>
+      <input type="number" name="tuitionfee" class="form-control" id="tuitionfee" [(ngModel)]="tuiFee">
+    </div>
+    <div class="col-md-4">
+      <label for="inputOtherFee" class="form-label">OTHER FEE</label>
+      <input type="number" name="otherfee" class="form-control" id="otherfee" [(ngModel)]="othFee">
+    </div>
+  </form>
+  <br>
+  <br>
+</div>

@@ -1,0 +1,25 @@
+<div class="tenth">
+  <h1>10<sup>th</sup>CLASS</h1>
+  <form class="row g-3" #tenthDetailsForm="ngForm">
+    
+    <div class="col-md-6">
+      <label for="inputRollNo" class="form-label">ROLL NUMBER</label>
+      <input type="number" name="tenthrollno" class="form-control" id="tenthrollno" [(ngModel)]="rollno">
+    </div>
+    <div class="col-6">
+      <label for="inputBoardName" class="form-label">BOARD NAME</label>
+      <input type="text" name="tenthboard" class="form-control" id="tenthboardname" placeholder="" [(ngModel)]="board">
+    </div>
+    <div class="col-6">
+      <label for="inputPassingYear" class="form-label">Passing Year</label>
+      <input type="date" name="tenthyear" class="form-control" id="tenthpassingyear" placeholder=""
+        [(ngModel)]="passYear">
+    </div>
+    <div class="col-md-4">
+      <label for="inputpercentage" class="form-label">Percentage Obtained</label>
+      <input type="number" name="tenthpercentage" id="tenthpercentage" class="form-control" [(ngModel)]="perObtain">
+    </div>
+  </form>
+  <br>
+  <br>
+</div>
